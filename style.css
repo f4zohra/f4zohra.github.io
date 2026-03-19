@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  background: #2a002a;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  background: #2a002a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+/* ABOUT SECTION */
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+}
+
+.about .text {
+  width: 60%;
+  font-size: 18px;
+}
+
+.about .image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
